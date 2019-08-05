@@ -1,6 +1,6 @@
 /**********************************************************
-- Autor:     Lineu Lima
-- DescriÁ„o: Comando \t - nova linha
+- Autor:     Let√≠cia da Silva Martins
+- Descri√ß√£o: Comando \t - nova linha
 **********************************************************/
 #include <iostream>
 #include <locale.h>
@@ -13,7 +13,7 @@ int main()
     setlocale(LC_ALL,"");
     system("color F1");
 
-    //CÛdigo do programa
+    //C√≥digo do programa
     cout << "10\t20\t30" << endl;
     cout << "40\t50\t60" << endl;
     cout << "70\t80\t90" << endl;
