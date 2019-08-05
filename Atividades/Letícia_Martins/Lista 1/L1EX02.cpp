@@ -1,6 +1,6 @@
 /**********************************************************
-- Autor:     Lineu Lima
-- DescriÁ„o: Comando endl - nova linha
+- Autor:     Let√≠cia da Silva Martins
+- Descri√ß√£o: Comando endl - nova linha
 **********************************************************/
 #include <iostream>
 #include <locale.h>
@@ -13,8 +13,8 @@ int main()
     setlocale(LC_ALL,"");
     system("color F1");
 
-    //CÛdigo do programa
-    cout << "Hoje È aula de ProgramaÁ„o!" << endl;
+    //C√≥digo do programa
+    cout << "Hoje √© aula de Programa√ß√£o!" << endl;
 
     return 0;
 }
