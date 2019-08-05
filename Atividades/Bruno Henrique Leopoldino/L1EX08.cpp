@@ -15,15 +15,15 @@ int main()
 
     //Código do programa
 
-    cout << "       *       \ n " ;
-    cout << "      * *      \ n " ;
-    cout << "     * *     \ n " ;
-    cout << "    * *    \ n " ;
-    cout << "   * *   \ n " ;
-    cout << " * * \ n " ;
-    cout << " ************* \ n " ;
-    cout << "      ***      \ n " ;
-    cout << "      ***      \ n " ;
+    cout << "        *       \n " ;
+    cout << "      * *      \n " ;
+    cout << "     *   *     \n " ;
+    cout << "    *     *    \n " ;
+    cout << "   *       *   \n " ;
+    cout << "  *         *  \n " ;
+    cout << " ************* \n " ;
+    cout << "      ***      \n " ;
+    cout << "      ***      \n " ;
     cout << "      ***      " << endl;
 
     return 0;
