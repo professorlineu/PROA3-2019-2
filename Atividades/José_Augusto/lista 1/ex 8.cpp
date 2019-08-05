@@ -1,6 +1,6 @@
 /**********************************************************
-- Autor:     JosÈ Augusto
-- DescriÁ„o: Nome Completo
+- Autor:     Jos√© Augusto
+- Descri√ß√£o: Nome Completo
 **********************************************************/
 #include <iostream>
 #include <locale.h>
@@ -10,24 +10,24 @@ using namespace std;
 
 int main()
 {
-    //DeclaraÁ„o de vari·veis
+    //Declara√ß√£o de vari√°veis
 
 
-    //ConfiguraÁ„o da tela de saÌda
+    //Configura√ß√£o da tela de sa√≠da
     setlocale(LC_ALL,"");
     system("color F1");
 
-    //CÛdigo do programa
-       cout << "*" << endl ;
-      cout << "* *" << endl ;
-     cout << "*   *"  << endl ;
-    cout << "*     *" << endl;
-   cout << "*       *" << endl;
-  cout << "*         *" << endl;
- cout << "*************" << endl;
-      cout << "***" <<  endl;
-      cout << "***" << endl;
-      cout << "***" << endl;
+    //C√≥digo do programa
+      cout << "       * " << endl;
+      cout << "      * * " << endl;
+      cout << "     *   * "   << endl;
+      cout << "    *     * " << endl;
+      cout << "   *       * " << endl;
+      cout << "  *         * " << endl;
+      cout << " ************* " << endl;
+      cout << "      *** " << endl;
+      cout << "      *** " << endl;
+      cout << "      *** " << endl;
 
 
     return 0;
