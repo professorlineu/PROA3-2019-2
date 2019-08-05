@@ -1,6 +1,6 @@
 /**********************************************************
-- Autor:     Lineu Lima
-- DescriÁ„o: Comando \n - nova linha
+- Autor:     L√©t√≠cia da Silva Martins
+- Descri√ß√£o: Comando \n - nova linha
 **********************************************************/
 #include <iostream>
 #include <locale.h>
@@ -13,8 +13,8 @@ int main()
     setlocale(LC_ALL,"");
     system("color F1");
 
-    //CÛdigo do programa
-    cout << "Aula de AutomaÁ„o!\n";
+    //C√≥digo do programa
+    cout << "Aula de Automa√ß√£o!\n";
 
     return 0;
 }
