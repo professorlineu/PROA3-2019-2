@@ -1,6 +1,6 @@
 /**********************************************************
-- Autor:     Lineu Lima
-- DescriÁ„o: Comando cout
+- Autor:     Let√≠cia da Silva Martins
+- Descri√ß√£o: Frase simples 
 **********************************************************/
 #include <iostream>
 #include <locale.h>
@@ -13,8 +13,8 @@ int main()
     setlocale(LC_ALL,"");
     system("color F1");
 
-    //CÛdigo do programa
-    cout << "Aula de AutomaÁ„o!";
+    //C√≥digo do programa
+    cout << "Aula de Automa√ß√£o!";
 
     return 0;
 }
