@@ -15,12 +15,11 @@ int main ()
     int  iNUM, iNUM_1, iNUM_2, iNUM_3, iNUM_4, iNUM_5, iNUM_6, iNUM_7, iNUM_8, iNUM_9, iNUM_10;
 
     system("cls");
-
     setlocale(LC_ALL,"");
     system("color F1");
 
-	cout << "\nDigite um número: "; // Recebe valor do número
-	cin >> iNUM;
+    cout << "\nDigite um número: "; // Recebe valor do número
+    cin >> iNUM;
 
     iNUM_1 = 1 * iNUM;
     iNUM_2 = 2 * iNUM;
@@ -35,7 +34,7 @@ int main ()
 
     cout << "\n" << iNUM << " x 0 = 0";
 
-	cout << "\n" << iNUM << " x 1 = " << iNUM_1;
+    cout << "\n" << iNUM << " x 1 = " << iNUM_1;
     cout << "\t\t" << iNUM << " x 6 = " << iNUM_6;
 
     cout << "\n" << iNUM << " x 2 = " << iNUM_2;
@@ -49,7 +48,6 @@ int main ()
 
     cout << "\n" << iNUM << " x 5 = " << iNUM_5;
     cout << "\t\t" << iNUM << " x 10 = " << iNUM_10;
-
 
 	getch();
 }
