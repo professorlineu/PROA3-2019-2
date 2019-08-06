@@ -1,6 +1,7 @@
 /**********************************************************
-- Autor:     Adalberto José de Moura
-- Descrição: Comando \t - nova linha
+- Autor:     Adalberto
+             José de Moura
+- Descrição: Comando cout
 **********************************************************/
 #include <iostream>
 #include <locale.h>
@@ -14,8 +15,7 @@ int main()
     system("color F1");
 
     //Código do programa
-    cout << "11\t22" << endl;
-    cout << "33\t44" << endl;
+    cout << "Hoje é aula de Programação!";
 
     return 0;
 
