@@ -1,6 +1,6 @@
 /**********************************************************
 - Autor:     Adalberto José
-- Descrição: Lista 2 Exercicio 3
+- Descrição: Lista 2 Exercicio 1
 **********************************************************/
 #include <iostream>
 #include <locale.h>
@@ -27,7 +27,7 @@ int main()
     cout << "Digite o ano de nascimento: ";
     cin >> iAnoNasc;
 
-    iResultado = iAnoAtual  /  iAnoNasc;
+    iResultado = iAnoAtual - iAnoNasc;
 
     cout << "Sua idade é: " << iResultado;
 
