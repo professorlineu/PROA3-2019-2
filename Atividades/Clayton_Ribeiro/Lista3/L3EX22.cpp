@@ -61,7 +61,7 @@ int main ()
 
     }
 
-    else
+    else        //Condição entre 60 e até 90 quilogramas
     {
         if (iIdade < 20)
         {
