@@ -34,12 +34,12 @@ int main ()
 
     if (fMed >= 7)
     {
-        cout << "\nVoce foi APROVADO com média: " << fMed;
+        cout << "\nVocê foi APROVADO com média: " << fMed;
     }
 
     else
     {
-        cout << "\nVoce foi REPROVADO com média: " << fMed;
+        cout << "\nVocê foi REPROVADO com média: " << fMed;
     }
 
 	return 0;
