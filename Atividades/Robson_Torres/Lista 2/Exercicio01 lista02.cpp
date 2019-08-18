@@ -21,14 +21,14 @@ int main()
 
     //Código do programa
 
-    cout << "Digite o primeiro número: ";    // Recebe o valor da idade
+    cout << "Digite o primeiro número: ";    // Recebe o valor do primeiro número
     cin >> d_num1;
 
-    cout << "Digite o segundo número: ";
+    cout << "Digite o segundo número: ";    // Recebe o valor do segundo número
     cin  >> d_num2;
 
 
-    d_resultado = d_num1 - d_num2;
+    d_resultado = d_num1 - d_num2;      // Calcula o valor da subtração
 
     cout << "O resultado da subtração é: " << d_resultado;
 
