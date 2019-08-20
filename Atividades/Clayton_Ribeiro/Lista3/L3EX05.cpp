@@ -38,7 +38,7 @@ int main ()
         cout << "\nA média dos números é: " << dMedia;
     }
 
-    else if (iOperacao == 2.0)        //Calcula a diferença do maior pelo menor
+    else if (iOperacao == 2)        //Calcula a diferença do maior pelo menor
     {
         if (fNum1 >= fNum2)
         {
