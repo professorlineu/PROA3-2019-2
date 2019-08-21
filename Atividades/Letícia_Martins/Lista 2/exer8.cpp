@@ -1,7 +1,7 @@
 
 /**********************************************************
-- Autor:     Letícia da Silva Martins
-- Descrição: Calculo de peso com porcentagem
+- Autor:     LetÃ­cia da Silva Martins
+- DescriÃ§Ã£o: Calculo de peso de quilo para gramas
 **********************************************************/
 #include <iostream>
 #include <locale.h>
@@ -17,12 +17,12 @@ int main()
     setlocale(LC_ALL,"");
     system("color F1");
 
-    cout << "O peso da pessoa em quilos  é : ";
+    cout << "O peso da pessoa em quilos  Ã© : ";
     cin >> fVal;
 
     fVa2= fVal*1000;
 
-    cout << "O peso da pessoa em gramas é: " << fVa2 << endl;
+    cout << "O peso da pessoa em gramas Ã©: " << fVa2 << endl;
 
 
     return 0;
