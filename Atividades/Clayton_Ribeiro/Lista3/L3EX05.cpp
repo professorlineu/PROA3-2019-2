@@ -11,7 +11,7 @@ using namespace std;
 int main ()
 {
     int iOperacao = 0;
-    float fNum1 = 0, fNum2 = 0, fNum3 = 0;
+    float fNum1 = 0, fNum2 = 0;
     double dMedia = 0, dDiferen = 0, dMaior = 0, dProd = 0, dDiv = 0;
 
     setlocale(LC_ALL,"");
