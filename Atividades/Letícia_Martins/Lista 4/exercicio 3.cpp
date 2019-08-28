@@ -1,6 +1,6 @@
 /**********************************************************
 - Autor:     Clayton C Ribeiro
-- Descrição: Lista 4 - Exercício 03
+- DescriÃ§Ã£o: Lista 4 - ExercÃ­cio 03
 **********************************************************/
 #include <iostream>
 #include <locale.h>
@@ -52,8 +52,8 @@ int main ()
 
     } // Fim do while
 
-    cout << "FAIXA ETÁRIA \tIDADE \t\t\t QUANTIDADE" << endl;
-    cout << "1 \t\tAté 15 anos \t\t " << iCont01 << endl;
+    cout << "FAIXA ETÃRIA \tIDADE \t\t\t QUANTIDADE" << endl;
+    cout << "1 \t\tAtÃ© 15 anos \t\t " << iCont01 << endl;
     cout << "2 \t\tDe 16 a 30 anos \t " << iCont02 << endl;
     cout << "3 \t\tDe 31 a 45 anos \t " << iCont03 << endl;
     cout << "4 \t\tDe 46 a 60 anos \t " << iCont04 << endl;
@@ -61,11 +61,11 @@ int main ()
 
     fCont01 = iCont01;
     fPorcent1 = (fCont01/i) * 100;
-    cout << "Porcentagem de pessoas na primeira faixa etária: " << fPorcent1 << "%" << endl;
+    cout << "Porcentagem de pessoas na primeira faixa etÃ¡ria: " << fPorcent1 << "%" << endl;
 
     fCont05 = iCont05;
     fPorcent5 = (fCont05/i) * 100;
-    cout << "Porcentagem de pessoas na última faixa etária: " << fPorcent5 << "%" << endl;
+    cout << "Porcentagem de pessoas na Ãºltima faixa etÃ¡ria: " << fPorcent5 << "%" << endl;
 
 	return 0;
 }
