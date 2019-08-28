@@ -1,6 +1,6 @@
 /**********************************************************
-- Autor:     LetÌcia da Silva Martins
-- DescriÁ„o: LaÁo de repetiÁ„o/Tabuada
+- Autor:     Let√≠cia da Silva Martins
+- Descri√ß√£o: La√ßo de repeti√ß√£o/Tabuada
 **********************************************************/
 #include <iostream>
 #include <locale.h>
@@ -10,19 +10,19 @@ using namespace std;
 
 int main()
 {
-    //DeclaraÁ„o de vari·veis
+    //Declara√ß√£o de vari√°veis
     int i = 0;
     int ivalor = 0;
     int imult = 0;
 
-    //ConfiguraÁ„o da tela de saÌda
+    //Configura√ß√£o da tela de sa√≠da
     setlocale(LC_ALL,"");
     system("color F1");
 
      cout << "Digite o valor desejado: ";
      cin  >> ivalor ;
 
-    //CÛdigo do programa
+    //C√≥digo do programa
     while (i <11)
     {
         imult = i * ivalor;
@@ -37,7 +37,7 @@ int main()
 
 
 
-    } // fim do while / laÁo
+    } // fim do while / la√ßo
 
 
     return 0;
