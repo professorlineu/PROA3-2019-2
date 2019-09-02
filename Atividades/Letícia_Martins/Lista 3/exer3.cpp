@@ -1,6 +1,6 @@
 /**********************************************************
-- Autor:     Letícia da Silva Martins
-- Descrição: Exer. 3 Recebe dois números e mostra o menor
+- Autor:     LetÃ­cia da Silva Martins
+- DescriÃ§Ã£o: Exer. 4 Recebe trÃªs nÃºmeros e mostra o menor
 **********************************************************/
 #include <iostream>
 #include <locale.h>
@@ -19,32 +19,32 @@ int main ()
     system("color F1");
 
 
-    cout << "Digite o primeiro número: ";    // Recebe o valor do primeiro número
+    cout << "Digite o primeiro nÃºmero: ";    // Recebe o valor do primeiro nÃºmero
     cin >> fNum1;
 
-    cout << "\nDigite o segundo número: ";    // Recebe o valor do segundo número
+    cout << "\nDigite o segundo nÃºmero: ";    // Recebe o valor do segundo nÃºmero
     cin >> fNum2;
 
-    cout << "\nDigite o terceiro número: ";    // Recebe o valor do terceiro número
+    cout << "\nDigite o terceiro nÃºmero: ";    // Recebe o valor do terceiro nÃºmero
     cin >> fNum3;
 
 
-    if (fNum1 <= fNum2)     //Condição para o número 1 ser o menor
+    if (fNum1 <= fNum2)     //CondiÃ§Ã£o para o nÃºmero 1 ser o menor
     {
         fMenor = fNum1;
     }
 
-    else                    //Condição para o número 2 ser o menor
+    else                    //CondiÃ§Ã£o para o nÃºmero 2 ser o menor
     {
         fMenor = fNum2;
     }
 
-    if  (fNum3 <= fMenor)   //Condição para o número 3 ser o menor
+    if  (fNum3 <= fMenor)   //CondiÃ§Ã£o para o nÃºmero 3 ser o menor
     {
         fMenor = fNum3;
     }
 
-    cout << "\nO menor número é: " << fMenor;
+    cout << "\nO menor nÃºmero Ã©: " << fMenor;
 
 	return 0;
 }
