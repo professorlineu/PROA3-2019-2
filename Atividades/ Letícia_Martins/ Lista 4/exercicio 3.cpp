@@ -1,5 +1,5 @@
 /**********************************************************
-- Autor:     Clayton C Ribeiro
+- Autor:     Letícia da Silva Martins
 - Descrição: Lista 4 - Exercício 03
 **********************************************************/
 #include <iostream>
