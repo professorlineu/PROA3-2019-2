@@ -12,7 +12,11 @@ int main ()
 {
     int i = 0;
     int iNum = 0;
-    int iSomaPares = 0, iSomaPrimos = 0;
+    int iSomaPares = 0;
+    int iSomaPrimos = 0;
+
+    int iTestePrimo = 0;
+    int iContaPrimo = 0;
 
     setlocale(LC_ALL,"");
     system("color F1");
@@ -29,10 +33,27 @@ int main ()
             iSomaPares += iNum;
         }
 
-        if ()       //Condição para ser primo (Não terminei ainda)
+
+        iTestePrimo = iNum;
+
+        while (iTestePrimo <= iNum && iTestePrimo >= 1)       //Condição para ser primo
+        {
+            if (iNum % iTestePrimo == 0)
+            {
+                iContaPrimo++;
+            }
+
+            iTestePrimo --;
+
+        }       //Fim da condição para ser primo
+
+
+        if (iContaPrimo == 2)       //Soma dos primos após a condição
         {
             iSomaPrimos += iNum;
         }
+
+        iContaPrimo = 0;
 
 
     } // Fim do while
