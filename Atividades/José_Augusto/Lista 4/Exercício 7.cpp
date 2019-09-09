@@ -1,6 +1,6 @@
 /**********************************************************
-- Autor:     JosÈ Augusto
-- DescriÁ„o: Lista 4 - ex 7
+- Autor:     Jos√© Augusto
+- Descri√ß√£o: Lista 4 - ex 7
 **********************************************************/
 #include <iostream>
 #include <locale.h>
@@ -10,7 +10,7 @@ using namespace std;
 
 int main()
 {
-    //DeclaraÁ„o de vari·veis
+    //Declara√ß√£o de vari√°veis
     int i = 0;
     int iIdade = 0;
     float fAltura = 0;
@@ -22,11 +22,11 @@ int main()
     int ipor = 0;
 
 
-    //ConfiguraÁ„o da tela de saÌda
+    //Configura√ß√£o da tela de sa√≠da
     setlocale(LC_ALL,"");
     system("color F1");
 
-    //CÛdigo do programa
+    //C√≥digo do programa
     while ( i < 5)
     {
         cout << "\nDigite a idade:" ;
@@ -63,24 +63,24 @@ int main()
 
     else
     {
-        cout << "\nN„o h· pessoas com mais de 50 anos!";
+        cout << "\nN√£o h√° pessoas com mais de 50 anos!";
     }
 
     if (ipessoas2 > 0)
     {
-       cout << "\nA mÈdia de pessoas com idade entre 10 a 20 anos È de:"  << fsoma/ipessoas2;
+       cout << "\nA m√©dia de pessoas com idade entre 10 a 20 anos √© de:"  << fsoma/ipessoas2;
     }
 
     else
     {
-        cout "\nN„o a pessoas com a idade entre 10 e 20 anos";
+        cout << "\nN√£o a pessoas com a idade entre 10 e 20 anos";
     }
 
     ipor = (((float)ipessoas3/i)*100);
 
     if (ipessoas3 > 0)
     {
-        cout "\nA porcentagem de pessoas com peso inferior a 40kg È de" << ipor << "%";
+        cout << "\nA porcentagem de pessoas com peso inferior a 40kg √© de" << ipor << "%";
     }
 
     else
