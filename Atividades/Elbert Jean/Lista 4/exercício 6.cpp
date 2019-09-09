@@ -1,0 +1,86 @@
+/**********************************************************
+- Autor:     Elbert Jean
+- Descrição: Uma loja utiliza o código V para transação à vista e P para transação a prazo. Faça um programa que receba
+o código e o valor de quinze transações, calcule e mostre:
+o valor total das compras à vista;
+o valor total das compras a prazo;
+o valor total das compras efetuadas; e
+o valor da primeira prestação das compras a prazo juntas, sabendo-se que serão pagas em três vezes.
+**********************************************************/
+#include <iostream>
+#include <locale.h>
+#include <cstdlib>
+#include <cmath>
+#include <conio.h>
+#include <ctype.h>
+
+
+using namespace std;
+
+
+int main()
+{
+
+    char ctrans;
+    int icont = 0;
+    float fvalor = 0;
+    float fsoma = 0;
+    float fsoma1 = 0;
+    float fsoma2 = 0;
+
+    setlocale(LC_ALL,"");
+    system("color F1");
+
+    while (icont < 5)
+    {
+        do
+        {
+            system("cls");
+
+            cout << "Transação a vista = V";
+            cout << "\nTransação a prazo = P";
+            cout << "\nInsira o código desejado ";
+            cin >> ctrans;
+
+            if (toupper(ctrans) != 'V' && toupper(ctrans) != 'P' )
+            {
+                cout <<"\nValor inválido! Tente novamente!" << endl ;
+                system("pause");
+            }
+        }
+        while (toupper(ctrans) != 'V' && toupper(ctrans) != 'P' );
+
+
+
+
+        cout << "\nQual o valor da transação? " << endl;
+        cin >> fvalor;
+
+
+
+        if (ctrans == 'v' || ctrans == 'V')
+        {
+            fsoma = fsoma + fvalor;
+        }
+
+        else if ( ctrans == 'p' || ctrans == 'P')
+        {
+            fsoma1= fsoma1 + fvalor;
+        }
+        else
+        {
+            cout <<"Opção Inválida" << endl;
+        }
+
+        fsoma2= fsoma2 + fvalor;
+
+        icont++;
+    }
+
+
+    cout << "\nO valor total das compras a vista é de " << fsoma <<" reais";
+    cout << "\nO valor total das compras a prazo é de " << fsoma1 << " reais";
+    cout << "\nO valor total das compras efetuadas é de " << fsoma2 << " reais";
+    cout << "\nSe você parcelar a sua compra a prazo em 3 vezes, o valor de cada parcela será de " <<fsoma1 / 3 << " reais";
+
+}
