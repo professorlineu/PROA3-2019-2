@@ -349,7 +349,7 @@ int main ()
         cout << "\t Normal é um jogo da velha simples.\n";
         cout << "\t No intermediário o usuário jogará um pequeno jogo para disputar a posição \n";
         cout << "\t central do tabuleiro, quem vencer começa o jogo principal com uma vantagem.\n";
-        cout << "\t O difícil segue a mesma lógica do intermediário com a disputa de duas posições.\n";
+        cout << "\t O difícil é um tabuleiro maior com uma matriz de 4 linhas por 4 colunas.\n";
         cout << "\n\n\t Este jogo foi desenvolvido pelos alunos: \n";
         cout << "\t\t Clayton Carneiro Ribeiro - clayton.ribeiro@live.com \n";
         cout << "\t\t Robson Gomes Torres - robson.gomes.torres@hotmail.com \n";
